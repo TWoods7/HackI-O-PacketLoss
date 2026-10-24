@@ -10,15 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@deck.gl/core": "9.1.15",
-    "@deck.gl/extensions": "9.1.15",
-    "@deck.gl/geo-layers": "9.1.15",
-    "@deck.gl/google-maps": "9.1.15",
-    "@deck.gl/layers": "9.1.15",
-    "@deck.gl/mesh-layers": "9.1.15",
+    "@deck.gl/core": "9.2.11",
+    "@deck.gl/extensions": "9.2.11",
+    "@deck.gl/geo-layers": "9.2.11",
+    "@deck.gl/google-maps": "9.2.11",
+    "@deck.gl/layers": "9.2.11",
+    "@deck.gl/mesh-layers": "9.2.11",
     "@vis.gl/react-google-maps": "^1.5.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

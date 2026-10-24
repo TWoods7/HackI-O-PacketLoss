@@ -5,7 +5,7 @@ import h3
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import RedirectResponse, StreamingResponse
 from pydantic import BaseModel, Field
 
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
@@ -46,6 +46,12 @@ class ChatRequest(BaseModel):
     messages: list[dict]
     context_id: str | None = None
     scenario: Scenario | None = None
+
+
+@app.get("/", include_in_schema=False)
+def root():
+    # The app itself is the Vite frontend on :5173; the backend root shows the API docs.
+    return RedirectResponse("/docs")
 
 
 @app.get("/api/hexes")
