@@ -1,0 +1,24 @@
+# AEP data (download with scripts/get_data.sh; never commit, contains addresses)
+data/raw/
+data/extracted/
+data/processed/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+backend/logs/
+
+# Node
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

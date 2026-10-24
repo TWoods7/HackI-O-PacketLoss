@@ -1,0 +1,3 @@
+{"context_id": "882a8a9731fffff", "kind": "hex", "circuit_alias": "Circuit A12",
+ "n_premises": 1274, "service_type_mix": {"overhead": 0.41, "underground": 0.59},
+ "upstream_device_count": 4, "center": {"lat": 37.2655, "lng": -79.9466}}

@@ -1,0 +1,10 @@
+geopandas>=1.0
+pyogrio>=0.10
+pandas>=2.2
+pyarrow>=17
+h3>=4.1
+scikit-learn>=1.5
+shap>=0.46
+openpyxl>=3.1
+matplotlib>=3.9
+jupyter>=1.1

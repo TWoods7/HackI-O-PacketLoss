@@ -1,0 +1,9 @@
+{"eligible": true, "reason": "Your area is High risk for this storm.",
+ "channels": ["sms", "push", "email"], "timing": "12 hours before expected storm arrival",
+ "escalation_triggers": ["Estimate changes by more than 2 hours or 25%", "Estimate exceeds 4 hours with a declared medical need: phone call + human follow-up"],
+ "messages": {
+  "pre_storm": "AEP: A strong storm is expected tonight. Your area has a high chance of losing power. Charge devices and see your prep checklist. Stay away from downed lines.",
+  "outage_confirmed": "AEP: We've confirmed an outage affecting your area. Crews are assessing damage. Our current estimate is 4 to 13 hours. We'll update you if it changes.",
+  "estimate_updated": "AEP: Update: your estimated restoration is now 6 to 10 hours. Crews are repairing a damaged pole on your line.",
+  "restored": "AEP: Power should be back in your area. If you're still out, reply OUT or report it at aep.com. Thanks for your patience."
+ }}

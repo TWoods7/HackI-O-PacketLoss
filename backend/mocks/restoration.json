@@ -1,0 +1,4 @@
+{"low_h": 4, "likely_h": 7, "high_h": 13, "labor_hours": 31.5,
+ "sequence": ["Repair recloser upstream (restores about 400 customers)", "Replace the damaged pole on your line", "Re-energize your transformer"],
+ "movers": [{"label": "Access blocked", "delta_h": 6}, {"label": "Double the crews", "delta_h": -3}],
+ "label": "Model estimate, not confirmed AEP restoration time"}

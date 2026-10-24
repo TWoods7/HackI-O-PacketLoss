@@ -1,0 +1,8 @@
+{"context_id": "882a8a9731fffff", "band": "High", "score": 0.58, "confidence": "Med",
+ "factors": [
+  {"label": "Overhead service", "direction": "up", "weight": 0.31, "plain_text": "Many homes here are fed by overhead lines, which storms damage more often."},
+  {"label": "Past storm damage nearby", "direction": "up", "weight": 0.22, "plain_text": "Crews repaired equipment near here during the February 2025 storm."},
+  {"label": "Older poles", "direction": "up", "weight": 0.14, "plain_text": "Poles in this area average over 40 years old."},
+  {"label": "Short upstream path", "direction": "down", "weight": 0.09, "plain_text": "Few devices sit between you and the substation, so fewer things can fail."}
+ ],
+ "fallback": false, "storm": 2}
